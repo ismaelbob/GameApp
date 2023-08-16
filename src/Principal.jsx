@@ -1,6 +1,12 @@
+
+
 function Principal () {
     return (
-        <>Principal</>
+        <>
+            <div className="pnl-principal">
+                <h4>DAME TRES</h4>
+            </div>
+        </>
     )
 }
 
