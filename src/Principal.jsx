@@ -48,6 +48,7 @@ function Principal () {
       const handlePause = () => {
         setIsActive(false)
         audio.pause()
+        audio.currentTime = 0
         audioCorrect.play()
       }
 
